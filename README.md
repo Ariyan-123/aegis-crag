@@ -108,7 +108,7 @@ aegis-crag/
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/<your-username>/aegis-crag.git
+git clone https://github.com/Ariyan-123/aegis-crag.git
 cd aegis-crag
 
 python -m venv venv
