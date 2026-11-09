@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Secrets & Environment Variables
+.env
+*.env
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local Vector Storage & Temporary Indexes
+qdrant_storage/
+*.tmp
+
+# System Files
+.DS_Store
+Thumbs.db

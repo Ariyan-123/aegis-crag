@@ -1,0 +1,7 @@
+question,answer,ground_truth,faithfulness,answer_relevancy,context_precision,latency_s,chunks_retrieved
+What is the remediation procedure for error code ERR_BLK_403?,"Based on the provided context, the remediation procedure for error code **ERR_BLK_403** is to:
+
+1.  Flush node leases via the command: `/opt/cluster/bin/leasectl --flush-all`
+2.  Trigger secondary sync.",Flush node leases via /opt/cluster/bin/leasectl --flush-all and trigger secondary sync.,1.0,1.0,1.0,3.12,2
+What is the default replication factor across production data nodes?,The default replication factor across all production data nodes is set to 3.,The default replication factor across all production data nodes is 3.,1.0,1.0,1.0,3.92,2
+Where is the third replica placed according to rack awareness policy?,"According to the rack awareness policy, the third replica is placed on a node located in an entirely distinct rack (Rack-B) to ensure fault tolerance against full-rack power failures.",The third replica is placed on a node located in an entirely distinct rack (Rack-B).,1.0,1.0,1.0,8.41,2
